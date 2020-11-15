@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="447.0" prefWidth="681.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.Controller">
+   <children>
+      <ListView fx:id="hearts" layoutX="16.0" layoutY="128.0" prefHeight="300.0" prefWidth="150.0" style="-fx-background-color: #FFDDDD; -fx-border-color: #000000; -fx-background-radius: 8; -fx-border-radius: 8;" />
+      <ListView fx:id="spades" layoutX="182.0" layoutY="128.0" prefHeight="300.0" prefWidth="150.0" style="-fx-border-color: #000000; -fx-background-radius: 8; -fx-border-radius: 8;" />
+      <ListView fx:id="diamonds" layoutX="348.0" layoutY="128.0" prefHeight="300.0" prefWidth="150.0" style="-fx-background-color: #FFDDDD; -fx-border-color: #000000; -fx-background-radius: 8; -fx-border-radius: 8;" />
+      <ListView fx:id="clubs" layoutX="514.0" layoutY="128.0" prefHeight="300.0" prefWidth="150.0" style="-fx-border-color: #000000; -fx-border-radius: 8; -fx-background-radius: 8;" />
+      <Label fx:id="currentCardLabel" layoutX="16.0" layoutY="16.0" prefHeight="51.0" style="-fx-background-color: #CDCDCD; -fx-border-color: #000000; -fx-border-radius: 8; -fx-background-radius: 8; -fx-alignment: center;" text="  Карта  ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="107.0" text="Черви" textFill="RED">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label layoutX="238.0" layoutY="107.0" text="Пики">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label layoutX="405.0" layoutY="107.0" text="Буби" textFill="RED">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label layoutX="564.0" layoutY="107.0" text="Крести">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
