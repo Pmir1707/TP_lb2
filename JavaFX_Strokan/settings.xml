@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_275" class="java.beans.XMLDecoder">
+ <object class="sample.Settings" id="Settings0"/>
+<void class="sample.Hierarchy.Shrubs" id="Shrubs0">
+ <void property="name">
+  <string>Малина</string>
+ </void>
+ <void property="floweringMonth">
+  <double>10.0</double>
+ </void>
+</void>
+<void class="sample.Hierarchy.Trees" id="Trees0">
+ <void property="name">
+  <string>Дуб</string>
+ </void>
+ <void property="age">
+  <double>65.0</double>
+ </void>
+</void>
+<void class="sample.Settings" id="Field0" method="getField">
+ <string>plants</string>
+ <void id="ArrayList0" method="get">
+  <object idref="Settings0"/>
+  <void method="add">
+   <object class="sample.Hierarchy.Trees">
+    <void property="age">
+     <double>30.0</double>
+    </void>
+    <void property="name">
+     <string>Береза</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Trees0"/>
+  </void>
+  <void method="add">
+   <object idref="Shrubs0"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList0"/>
+</java>
