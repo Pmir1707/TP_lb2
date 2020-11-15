@@ -38,7 +38,7 @@ public class Menu{
                     System.out.println(work.printPlantsList());
                     break;
                 case 4://запрос
-                    System.out.println("Количество согласных в названи = "
+                    System.out.println("Количество согласных в названии = "
                             + work.executeRequest(findPlant(plants)));
                     break;
                 case 5://выxод
