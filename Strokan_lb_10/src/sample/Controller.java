@@ -209,7 +209,7 @@ public class Controller implements Initializable {
     public void tryToCreateForThisNumbers(ActionEvent actionEvent) {
 
         Queue<Integer> items = new LinkedList<>();
-        Integer[] array = new Integer[]{10, 5, 20, 3, 7, 15, 25};
+        Integer[] array = new Integer[]{50, 100, 150, 200, 250, 300, 350};
 
         for (int el : array) {
 
