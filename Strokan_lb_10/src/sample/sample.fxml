@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="601.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.Controller">
+    <children>
+        <TreeView fx:id="treeList" prefHeight="272.0" prefWidth="600.0" />
+        <Label fx:id="path" layoutX="10.0" layoutY="346.0" prefHeight="21.0" prefWidth="244.0" />
+        <TextField fx:id="textFieldNodeValue" layoutX="94.0" layoutY="454.0" visible="false" />
+        <Button fx:id="searchButton" layoutX="131.0" layoutY="485.0" mnemonicParsing="false" onAction="#tryToFind" prefHeight="31.0" prefWidth="75.0" text="Найти" visible="false" />
+        <TextField fx:id="textFieldAddValue" layoutX="367.0" layoutY="454.0" visible="false" />
+        <Button fx:id="addButton" layoutX="395.0" layoutY="485.0" mnemonicParsing="false" onAction="#tryToAdd" prefHeight="31.0" prefWidth="92.0" text="Добавить" visible="false">
+            <padding>
+                <Insets left="5.0" right="5.0" />
+            </padding></Button>
+        <Label fx:id="minimalChild" layoutX="12.0" layoutY="410.0" maxWidth="1.7976931348623157E308" prefHeight="21.0" prefWidth="388.0" />
+        <Label fx:id="wideSearch" layoutX="14.0" layoutY="374.0" maxWidth="1.7976931348623157E308" prefHeight="21.0" prefWidth="343.0" />
+        <Button fx:id="customNumbersButton" layoutX="87.0" layoutY="300.0" mnemonicParsing="false" onAction="#tryToCreateForThisNumbers" prefHeight="31.0" prefWidth="163.0" text="Для заданного набора" AnchorPane.leftAnchor="87.0">
+            <padding>
+                <Insets left="3.0" right="3.0" />
+            </padding>
+        </Button>
+        <Button fx:id="randomNumbersButton" layoutX="351.0" layoutY="300.0" mnemonicParsing="false" onAction="#tryToCreateForRandomNumbers" prefHeight="31.0" prefWidth="180.0" text="Для случайного набора">
+            <padding>
+                <Insets left="3.0" right="3.0" />
+            </padding>
+        </Button>
+        <Label layoutX="250.0" layoutY="276.0" style="-fx-background-color: white;" text="Построить дерево" />
+        <TextField fx:id="textFieldSetSize" layoutX="382.0" layoutY="372.0" visible="false" />
+        <Button fx:id="buildButton" layoutX="419.0" layoutY="410.0" mnemonicParsing="false" onAction="#tryToCreateTree" text="Построить" visible="false" />
+        <Label fx:id="size" layoutX="351.0" layoutY="346.0" text="Количество элементов" visible="false" />
+    </children>
+</AnchorPane>
