@@ -1,0 +1,104 @@
+[ {
+  "@class" : "sample.models.Man",
+  "surname" : "Блажев",
+  "name" : "Евгений",
+  "bday" : "01.01.2000",
+  "sp" : "не женат",
+  "gender" : "м",
+  "id" : 1,
+  "weight" : 60,
+  "beard" : true
+}, {
+  "@class" : "sample.models.Family",
+  "surname" : "Ведерников",
+  "name" : "Даниил",
+  "bday" : "02.01.2000",
+  "sp" : "женат",
+  "gender" : "м",
+  "id" : 2,
+  "children" : 1,
+  "temperament" : "choleric"
+}, {
+  "@class" : "sample.models.Woman",
+  "surname" : "Артемьева",
+  "name" : "Ольга",
+  "bday" : "03.01.2000",
+  "sp" : "не замужем",
+  "gender" : "ж",
+  "id" : 3,
+  "sWaist" : 61.0,
+  "sBreast" : 80.0,
+  "sHips" : 88.0
+}, {
+  "@class" : "sample.models.Man",
+  "surname" : "Гордин",
+  "name" : "Андрей",
+  "bday" : "04.01.2000",
+  "sp" : "не женат",
+  "gender" : "м",
+  "id" : 4,
+  "weight" : 110,
+  "beard" : true
+}, {
+  "@class" : "sample.models.Family",
+  "surname" : "Богданова",
+  "name" : "Татьяна",
+  "bday" : "05.01.2000",
+  "sp" : "замужем",
+  "gender" : "ж",
+  "id" : 5,
+  "children" : 1,
+  "temperament" : "sanguine"
+}, {
+  "@class" : "sample.models.Woman",
+  "surname" : "Лоншакова",
+  "name" : "Кристина",
+  "bday" : "06.01.2000",
+  "sp" : "замужем",
+  "gender" : "ж",
+  "id" : 6,
+  "sWaist" : 53.0,
+  "sBreast" : 82.0,
+  "sHips" : 81.0
+}, {
+  "@class" : "sample.models.Man",
+  "surname" : "Губарев",
+  "name" : "Михаил",
+  "bday" : "07.01.2000",
+  "sp" : "женат",
+  "gender" : "м",
+  "id" : 7,
+  "weight" : 57,
+  "beard" : true
+}, {
+  "@class" : "sample.models.Family",
+  "surname" : "Попова",
+  "name" : "Валерия",
+  "bday" : "08.01.2000",
+  "sp" : "замужем",
+  "gender" : "ж",
+  "id" : 8,
+  "children" : 2,
+  "temperament" : "phlegmatic"
+}, {
+  "@class" : "sample.models.Woman",
+  "surname" : "Портенко",
+  "name" : "Анастасия",
+  "bday" : "09.01.2000",
+  "sp" : "не замужем",
+  "gender" : "ж",
+  "id" : 9,
+  "sWaist" : 55.0,
+  "sBreast" : 80.0,
+  "sHips" : 80.0
+}, {
+  "@class" : "sample.models.Family",
+  "surname" : "Задбоев",
+  "name" : "Илья",
+  "bday" : "10.01.2000",
+  "sp" : "женат",
+  "gender" : "м",
+  "id" : 10,
+  "children" : 5,
+  "temperament" : "melancholic"
+} ]
